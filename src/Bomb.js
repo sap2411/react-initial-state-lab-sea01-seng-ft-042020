@@ -10,12 +10,7 @@ export default class Bomb extends Component {
     }
     
     // our increment method makes use of the 'setState' method, which is what we use to alter state
-    increment = () => {
-        const newCount = this.state.count + 1
-        this.setState({
-            count: newCount
-        })
-    }
+    
     
     render() {
         return (
